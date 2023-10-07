@@ -1,0 +1,90 @@
+.register-industry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110vh;
+  background-color: #9eb390; /* Background color for the entire form */
+}
+
+/* Form container */
+.register-industry-form {
+  background-color: #bcd1ae; /* Light gray background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 500px; /* Increased form width */
+  margin: 0 auto; /* Center the form horizontally */
+  text-align: center; /* Center text content horizontally */
+}
+
+/* Form title */
+.register-industry-form h2 {
+  font-size: 24px;
+  color: #009933; /* Greenish title color */
+}
+
+/* Input field styles */
+.input-field {
+  width: 350px;
+  margin: 0 auto; /* Center input field horizontally */
+  text-align: left; /* Reset text alignment for input field labels */
+}
+
+.input-field label {
+  display: block;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #555; /* Label text color */
+}
+
+.input-field input[type="text"],
+.input-field input[type="email"] {
+  background-color: #cddac5;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc; /* Input border color */
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Checkboxes for parameters */
+.parameter-checkboxes label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #009933; /* Greenish checkbox label color */
+}
+
+.parameter-checkboxes input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Submit button */
+.submit-button {
+  background-color: #009933; /* Greenish button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #007a26; /* Hover background color */
+}
+
+/* Back to Industry link */
+.link-to-industry {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #009933; /* Greenish link color */
+  text-decoration: none;
+}
+
+.link-to-industry:hover {
+  text-decoration: underline;
+}

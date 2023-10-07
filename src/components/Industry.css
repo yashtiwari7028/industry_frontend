@@ -1,0 +1,56 @@
+/* Industry.css */
+
+/* Container for the Industry component */
+.industry {
+  padding: 20px;
+}
+
+/* Title */
+.industry h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #009933; /* Greenish title color */
+}
+
+/* "Add Industry" button */
+.add-industry-button {
+  background-color: #2e9651; /* Greenish button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-industry-button:hover {
+  background-color: #007a26; /* Hover background color */
+}
+
+/* Table container */
+.table-container {
+  margin-top: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table header row */
+.table-header-row {
+  background-color: #2e9651; /* Greenish header background color */
+  color: #fff; /* Header text color */
+  font-weight: bold;
+}
+
+/* Table cell style */
+.table-cell {
+  padding: 10px;
+}
+
+/* Table row colors */
+.table-row-even {
+  background-color: #f0f0f0; /* Even row background color */
+}
+
+.table-row-odd {
+  background-color: #ffffff; /* Odd row background color */
+}
